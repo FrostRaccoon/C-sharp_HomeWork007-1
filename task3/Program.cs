@@ -9,9 +9,9 @@
 var arr = Generate2DArray(4, 4);
 Print2DArray(arr);
 System.Console.WriteLine();
-Sum(arr);
+ArithmeticMean(arr);
 
-void Sum(int[,] arr)
+void ArithmeticMean(int[,] arr)
 {
     for(int j = 0; j < arr.GetLength(1); j++)
     {
