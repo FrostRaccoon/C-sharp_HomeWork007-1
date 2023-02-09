@@ -8,7 +8,7 @@
 
 var arr = Generate2DArray(4, 4);
 Print2DArray(arr);
-System.Console.WriteLine();
+Console.WriteLine();
 ArithmeticMean(arr);
 
 void ArithmeticMean(int[,] arr)
@@ -21,7 +21,7 @@ void ArithmeticMean(int[,] arr)
             result = result + arr[i, j];
         }
         result = result / arr.GetLength(0);
-        System.Console.Write(result + "; ");
+        Console.Write(result + "; ");
     }
     Console.WriteLine();
 }
